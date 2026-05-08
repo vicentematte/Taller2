@@ -54,4 +54,4 @@ public class TablaTipos {
 	        return EFECTIVIDAD[fila][columna];
 	    }
 	}
-}
+
