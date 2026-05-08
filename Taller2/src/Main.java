@@ -442,18 +442,15 @@ public class Main {
                         System.out.println("Has derrotado a " + gimElegido.getLider() + "!! Obtuviste una medalla!");
                     }
                     break;
-
                 case 5:
                 	System.out.println("(trabajandoooooooo)");
                     break;
-
                 case 6:
                 	for (Pokedex p : listaCapturados) {
                 		p.setEstado("Vivo");
                 	}
                 	System.out.println("Tu equipo se ha recuperado!");
-                    break;
-
+                    break;  
                 case 7:
                     guardar(apodo);
                     System.out.println("Partida guardada!");
@@ -466,13 +463,10 @@ public class Main {
 
                 default:
                     System.out.println("Opcion invalida.");
-            }
-
+            } 
         } while (opcion != 8);
     }
-
     //funciones lol xd
-    
     private static void mostrarEquipo() {
         if (listaEquipo.isEmpty()) {
             System.out.println("No tienes Pokemon en tu equipo.");
@@ -484,7 +478,6 @@ public class Main {
             indice++;
         }
     }
-
     private static void mostrarpokemonsRegistro() {
         int indice = 1;
         for (Pokedex t : listaCapturados) {
@@ -492,7 +485,6 @@ public class Main {
             indice++;
         }
     }
-
     private static Pokedex elegirPokemonAleatorio(ArrayList<Pokedex> pokemonsZona) {
         double total = 0;
         for (Pokedex p : pokemonsZona) total += p.getPorcentajeAparicion();
@@ -505,7 +497,6 @@ public class Main {
         }
         return pokemonsZona.get(pokemonsZona.size() - 1);
     }
-
     private static void mostrarHabitat() {
         int indice = 1;
         for (Habitat t : listaHabitat) {
