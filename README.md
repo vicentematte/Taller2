@@ -9,8 +9,6 @@ Este taller consistio en crear un juego de simulacion de Pokemon por consola usa
 |--------|-----|--------|
 | Vicente Augusto Matte Barraza | 21.753.089-K | vicentematte |
 
-## Como se abordo
-El proyecto se desarrollo aplicando los conceptos de Programacion Orientada al Objeto (POO). Se crearon clases para representar cada elemento del juego, como los Pokemon, los Gimnasios, los habitats y el Alto Mando. La clase principal Main se encarga de toda la logica del juego, los menus y las interacciones con el usuario.
 ## Como se realizo:
 El taller numero dos se ralizo primeramente abordando todas las funciones para poder cargar los objetos en sus respectivas clases, luego se fueron desglosando las opciones que nos pedian para asi ir avanzando y lograr finalizar lo solicitado. Cada parte de nuestro menu se logro hacer funcionar luego de varias horas de estudio autonomo, aprendiendo asi a utilizar las funciones de random, o escritura de archivos. 
 
